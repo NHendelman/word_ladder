@@ -61,7 +61,7 @@ def word_ladder(start_word, end_word, dictionary_file='words5.dict'):
     if len(start_word) != 5 or len(end_word) != 5:
         return None
     if start_word == end_word:
-        return[start_word]
+        return [start_word]
 
     stack = []
     stack.append(start_word)
@@ -120,8 +120,8 @@ def verify_word_ladder(ladder):
         return False
     if len(ladder) == 1:
         verify = True
-    for word in range(len(ladder)-1):
-        if not _adjacent(ladder[word], ladder[word+1]):
+    for word in range(len(ladder) - 1):
+        if not _adjacent(ladder[word], ladder[word + 1]):
             return False
         else:
             verify = True
