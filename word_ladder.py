@@ -21,7 +21,7 @@ def word_ladder(start_word, end_word, dictionary_file='words5.dict'):
     'penny', 'benny', 'bonny', 'boney', 'money']
     ```
     but the possible outputs are not unique,
-    so you may also get the output
+    so you may also get the output (edit for push)
     ```
     ['stone', 'shone', 'shote', 'shots', 'soots',
     'hoots', 'hooty', 'hooey', 'honey', 'money']
